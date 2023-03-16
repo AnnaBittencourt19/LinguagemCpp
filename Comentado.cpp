@@ -1,4 +1,5 @@
 #include <iostream>
+
 //A diretiva de pré-processador #include
 int main() //função principal
 
@@ -13,6 +14,7 @@ int main() //função principal
  //CTRL + SHIFT + ENTER = Maximar/ minimizar janela
  //CTRL + K + C = Comentar o código
 //CTRL + C no final da linha copia ela toda sem precisar selecionar
+
 
 
 
