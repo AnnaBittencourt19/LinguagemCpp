@@ -1,18 +1,22 @@
-// entrada = texto (primeiro nome vendedor), DOUBLE (salario fixo e montante)
-// calculo = 
-
-//precision (2)
-
 #include <iostream>
-#include <iomanip>
+#include <iomanip> 
 using namespace std;
+ 
+int main() {
+    string nome_vendedor;
+    double salario_fixo, total_vendas;
 
-int main()
-{
-	cout << fixed << setprecision(2);
-	char nome[20];
-	double salario_fixo, montante;
-	
-	
-	return 0;
+    cin >> nome_vendedor;
+    cin >> salario_fixo >> total_vendas;
+
+    double total_receber = salario_fixo + (total_vendas * 0.15);
+
+    cout << fixed << setprecision(2); 
+    cout << "TOTAL = R$ " << total_receber << endl;
+
+    return 0;
 }
+
+
+
+
